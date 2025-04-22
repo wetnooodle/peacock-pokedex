@@ -1,7 +1,7 @@
 // src/components/PokemonDetail.tsx
 import React, { useEffect, useState } from 'react';
 import { Pokemon } from 'pokenode-ts';
-import { motion, useAnimationControls } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 interface Props {
   pokemon: Pokemon;
